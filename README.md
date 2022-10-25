@@ -17,8 +17,6 @@ Before you get started, make sure you have the following software installed on y
 
 Run:
 - npm Install
-- npm run server
-- npm run client
 
 ## Create database and table
 
@@ -33,8 +31,8 @@ use the database.sql file here to upload the queries to your database. Run the q
   ```
   While you're in your new `.env` file, take the time to replace `superDuperSecret` with some long random string like `3645g4ae6r54ge65f4gae6r4` to keep your application secure. Here's a site that can help you: [https://passwordsgenerator.net/](https://passwordsgenerator.net/). If you don't do this step, create a secret with less than eight characters, or leave it as `superDuperSecret`, you will get a warning.
 - Start postgres if not running already by using `brew services start postgresql`
-- Run `npm run server`
-- Run `npm run client`
+- Open a terminal and run `npm run server`
+- Open a new terminal and Run `npm run client`
 - Navigate to `localhost:3000`
 
 ## Support
