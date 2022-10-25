@@ -31,14 +31,11 @@ use the database.sql file here to upload the queries to your database. Run the q
   ```
   SERVER_SESSION_SECRET=superDuperSecret
   ```
-  While you're in your new `.env` file, take the time to replace `superDuperSecret` with some long random string like `25POUbVtx6RKVNWszd9ERB9Bb6` to keep your application secure. Here's a site that can help you: [https://passwordsgenerator.net/](https://passwordsgenerator.net/). If you don't do this step, create a secret with less than eight characters, or leave it as `superDuperSecret`, you will get a warning.
+  While you're in your new `.env` file, take the time to replace `superDuperSecret` with some long random string like `3645g4ae6r54ge65f4gae6r4` to keep your application secure. Here's a site that can help you: [https://passwordsgenerator.net/](https://passwordsgenerator.net/). If you don't do this step, create a secret with less than eight characters, or leave it as `superDuperSecret`, you will get a warning.
 - Start postgres if not running already by using `brew services start postgresql`
 - Run `npm run server`
 - Run `npm run client`
 - Navigate to `localhost:3000`
-
-## Acknowledgement
-I wanto to thank the instructors who helped us build this application and all my classmates. I couldn't have done it without their help.
 
 ## Support
 If you need assistance, feel free to email me at kpyang2414@gmail.com
